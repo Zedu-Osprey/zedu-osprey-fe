@@ -1,5 +1,7 @@
 import { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { siteUrl } from "~/lib/env-urls";
+import { isFeatureEnabled } from "~/lib/feature-flags";
 import { zeduOspreyContributors } from "~/data/zedu-osprey-contributors";
 import { ContributorsDirectory } from "./_components/contributors-directory";
 
@@ -16,6 +18,10 @@ export const metadata: Metadata = {
 };
 
 const ZeduOspreyContributorsPage = () => {
+  if (!isFeatureEnabled("zeduOspreyContributors")) {
+    notFound();
+  }
+
   return (
     <main className="relative isolate overflow-hidden pb-24">
       <div
