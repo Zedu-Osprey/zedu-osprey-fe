@@ -1,0 +1,43 @@
+export type Contributor = {
+  name: string;
+  username: string;
+};
+
+export const zeduOspreyContributors: Contributor[] = [
+  { name: "Abdulrahman Abdulwasiu", username: "AbuDev" },
+  { name: "Abiona Boluwatife Solomon", username: "DesignsbyB" },
+  { name: "Adaeze", username: "Adaeze" },
+  { name: "Adewale Odukoya", username: "Adewale.py" },
+  { name: "Ajayi Daniel", username: "Dahak" },
+  { name: "Aliu Kamalideen Usman", username: "uthman tech" },
+  { name: "Avi", username: "Avi" },
+  { name: "CtrlF", username: "CtrlF" },
+  { name: "Daniel Iderima", username: "daniel_iderima" },
+  { name: "Deborah Oyetunde", username: "Senorita" },
+  { name: "Eddy", username: "Eddy" },
+  { name: "Ejiro Francess Ejoh", username: "ejiro frances" },
+  { name: "Ekekwe Charles", username: "xharlessnow" },
+  { name: "Elijah Victor", username: "Stark" },
+  { name: "Faizal", username: "Faizal" },
+  { name: "Favour Alemika", username: "Code Flexie" },
+  { name: "Garuba Abdulazeez", username: "devAzeejim()" },
+  { name: "Irfat", username: "Irfat" },
+  { name: "Isaac Gideon", username: "vxrcel" },
+  { name: "Iyola Oyabiyi", username: "iyoolaoyabiyi" },
+  { name: "Joshua Adebisi", username: "Forty Eight" },
+  { name: "Leo", username: "Beelzebub" },
+  { name: "Maureen Obiekwe", username: "Human AI" },
+  { name: "Obinna Chidi", username: "Lisan al Gaib" },
+  { name: "Olukemi Odedeyi", username: "Sh3hasn0nam3" },
+  { name: "Oluwakorede Adegbehingbe", username: "Korede" },
+  { name: "Oluwanifemi Adeyemi", username: "Rondo" },
+  { name: "Oshin Samuel", username: "bobbysam" },
+  { name: "Pauline Banye", username: "Lynn B" },
+  { name: "Pulse Analytics", username: "Pulse Analytics" },
+  { name: "Samson Bakare", username: "Samjean" },
+  { name: "Sarah Adetomiwa", username: "Big Miwa" },
+  { name: "Sodiq Aliu", username: "sodiqbinaliu" },
+  { name: "Udoh, Ubokabasi Odudu", username: "Basi" },
+  { name: "Yusuf Bashir Nayaya", username: "Ybee" },
+  { name: "Zuliyat", username: "Pom Pom" },
+];
