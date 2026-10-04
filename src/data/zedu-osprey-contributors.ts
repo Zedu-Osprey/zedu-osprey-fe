@@ -35,7 +35,7 @@ export const zeduOspreyContributors: Contributor[] = [
   { name: "Maureen Obiekwe", username: "Human AI" },
   { name: "Obinna Chidi", username: "Lisan al Gaib" },
   { name: "Olukemi Odedeyi", username: "Sh3hasn0nam3" },
-  { name: "Oluwakorede Adegbehingbe", username: "Korede" },
+  { name: "Oluwakorede Joseph Adegbehingbe", username: "Korede" },
   { name: "Oluwanifemi Adeyemi", username: "Rondo" },
   { name: "Oshin Samuel", username: "bobbysam" },
   { name: "Oyindamola Adewole", username: "Oyindamola Adewole" },
