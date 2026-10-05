@@ -5,7 +5,7 @@ export type Contributor = {
 
 export const zeduOspreyContributors: Contributor[] = [
   { name: "Abdulrahman Abdulwasiu", username: "AbuDev" },
-  { name: "Abiona Boluwatife", username: "DesignsbyB" },
+  { name: "Abiona Boluwatife S", username: "DesignsbyB" },
   { name: "Adaeze", username: "Adaeze" },
   { name: "Adaeze Ikemefuna ", username: "Hamsa" },
   { name: "Adesua Benita", username: "Susu" },
