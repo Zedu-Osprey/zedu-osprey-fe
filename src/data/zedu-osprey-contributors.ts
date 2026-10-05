@@ -26,6 +26,7 @@ export const zeduOspreyContributors: Contributor[] = [
   { name: "Favour Alemika", username: "Code Flexie" },
   { name: "Fuhad", username: "phurhard" },
   { name: "Garuba Abdulazeez", username: "devAzeejim()" },
+  { name: "Ilesanmi-Ojo Temitope", username: "Temmyactive" },
   { name: "Irfat", username: "Irfat" },
   { name: "Isaac Gideon", username: "vxrcel" },
   { name: "Iyola Oyabiyi", username: "iyoolaoyabiyi" },
