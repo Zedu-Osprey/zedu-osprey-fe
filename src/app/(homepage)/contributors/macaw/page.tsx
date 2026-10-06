@@ -175,6 +175,13 @@ const contributors: Contributor[] = [
     role: "member",
   },
   {
+    name: "Gift Osanebi",
+    username: "osanebigift",
+    workspaceEmail: "osanebigift@gmail.com",
+    gitHubEmail: "osanebigift@gmail.com",
+    role: "member",
+  },
+  {
     name: "Muhammad Alameen Adamu",
     username: "Alameentoro",
     workspaceEmail: "muhammadtt97@gmail.com",
