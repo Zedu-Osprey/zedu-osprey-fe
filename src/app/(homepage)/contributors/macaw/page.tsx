@@ -927,7 +927,7 @@ const contributors: Contributor[] = [
     workspaceEmail: "osanebigift@gmail.com",
     gitHubEmail: "osanebigift@gmail.com",
     role: "member",
-},
+  },
 ];
 
 export default function MacawPage() {
