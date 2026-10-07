@@ -920,14 +920,6 @@ const contributors: Contributor[] = [
     role: "member",
     hobbies: [],
   },
-  {
-    id: "99",
-    name: "Gift Osanebi",
-    username: "osanebigift",
-    workspaceEmail: "osanebigift@gmail.com",
-    gitHubEmail: "osanebigift@gmail.com",
-    role: "member",
-  },
 ];
 
 export default function MacawPage() {
