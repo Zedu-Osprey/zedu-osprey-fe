@@ -89,19 +89,19 @@ export function uiAvatarUrl(name: string): string {
 }
 
 export function instagramUrl(): string {
-  return readEnv("NEXT_PUBLIC_INSTAGRAM_URL");
+  return "https://instagram.com/zedu.chat";
 }
 
 export function tiktokUrl(): string {
-  return readEnv("NEXT_PUBLIC_TIKTOK_URL");
+  return "https://tiktok.com/@zeduchat";
 }
 
 export function facebookUrl(): string {
-  return readEnv("NEXT_PUBLIC_FACEBOOK_URL");
+  return siteUrl("/facebook");
 }
 
 export function xUrl(): string {
-  return readEnv("NEXT_PUBLIC_X_URL");
+  return "https://x.com/zeduchat";
 }
 
 /** npm package root for emoji-datasource-apple (no trailing slash). */

@@ -302,13 +302,15 @@ const Footer = () => {
 
           <div className="flex items-center gap-6">
             {socialLinks.map((item) => (
-              <Link
+              <a
                 key={item.id}
                 href={item.href}
-                className="transition-all hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-all hover:opacity-80 cursor-pointer"
               >
                 <Image src={item.icon} width={24} height={24} alt={item.alt} />
-              </Link>
+              </a>
             ))}
           </div>
         </div>
