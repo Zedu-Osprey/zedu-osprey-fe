@@ -88,20 +88,20 @@ export function uiAvatarUrl(name: string): string {
   return `${readEnv("NEXT_PUBLIC_UI_AVATARS_URL")}?name=${encodeURIComponent(name)}`;
 }
 
+export function facebookUrl(): string {
+  return "https://facebook.com/zedu.chat";
+}
+
 export function instagramUrl(): string {
   return "https://instagram.com/zedu.chat";
 }
 
 export function tiktokUrl(): string {
-  return "https://tiktok.com/@zeduchat";
-}
-
-export function facebookUrl(): string {
-  return siteUrl("/facebook");
+  return "https://tiktok.com/zedu.chat";
 }
 
 export function xUrl(): string {
-  return "https://x.com/zeduchat";
+  return "https://x.com/zedu.chat";
 }
 
 /** npm package root for emoji-datasource-apple (no trailing slash). */
